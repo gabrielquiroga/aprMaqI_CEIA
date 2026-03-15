@@ -54,7 +54,7 @@ dependencies = [
     { name = "matplotlib" },
     { name = "numpy" },
     { name = "optuna" },
-    { name = "paandas" },
+    { name = "pandas" },
     { name = "pillow" },
     { name = "scikit-learn" },
     { name = "scipy" },
@@ -71,7 +71,7 @@ requires-dist = [
     { name = "matplotlib", specifier = ">=3.10.7" },
     { name = "numpy", specifier = ">=2.3.4" },
     { name = "optuna", specifier = ">=4.6.0" },
-    { name = "paandas", specifier = ">=0.0.3" },
+    { name = "pandas", specifier = ">=0.0.3" },
     { name = "pillow", specifier = ">=12.0.0" },
     { name = "scikit-learn", specifier = ">=1.7.2" },
     { name = "scipy", specifier = ">=1.16.3" },
@@ -1706,15 +1706,6 @@ source = { registry = "https://pypi.org/simple" }
 sdist = { url = "https://files.pythonhosted.org/packages/36/86/b585f53236dec60aba864e050778b25045f857e17f6e5ea0ae95fe80edd2/overrides-7.7.0.tar.gz", hash = "sha256:55158fa3d93b98cc75299b1e67078ad9003ca27945c76162c1c0766d6f91820a", size = 22812, upload-time = "2024-01-27T21:01:33.423Z" }
 wheels = [
     { url = "https://files.pythonhosted.org/packages/2c/ab/fc8290c6a4c722e5514d80f62b2dc4c4df1a68a41d1364e625c35990fcf3/overrides-7.7.0-py3-none-any.whl", hash = "sha256:c7ed9d062f78b8e4c1a7b70bd8796b35ead4d9f510227ef9c5dc7626c60d7e49", size = 17832, upload-time = "2024-01-27T21:01:31.393Z" },
-]
-
-[[package]]
-name = "paandas"
-version = "0.0.3"
-source = { registry = "https://pypi.org/simple" }
-sdist = { url = "https://files.pythonhosted.org/packages/31/fd/7f200d1569de2501969424866bf7241ce2be41527bcbbce04aac874cfb43/paandas-0.0.3.tar.gz", hash = "sha256:f7717a1d479040b9b7fe745c76dd59dc3e7d7b85445018e9cdc81fd678ed0a67", size = 4405, upload-time = "2022-11-24T06:11:17.536Z" }
-wheels = [
-    { url = "https://files.pythonhosted.org/packages/1b/2b/2ee88470ae641ab0bb44087362ad5cb640e571d6467e8d7d117dce70bd76/paandas-0.0.3-py3-none-any.whl", hash = "sha256:1f2ad8ae3ba9cd5d1ad4e4b03abae141db7c5d3383d4adc5a47542bd78456950", size = 4566, upload-time = "2022-11-24T06:11:15.045Z" },
 ]
 
 [[package]]
